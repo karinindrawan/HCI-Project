@@ -1,0 +1,238 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+    height: 13%;
+    margin: auto;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 8%;
+	padding-right: 8%;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #000000;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+
+nav ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover {
+	color: #ff0404;
+	transition: .5s;
+}
+.button {
+	background-color:#f90000;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+}
+
+.button:hover {
+	transform: scale(1.2);
+}
+
+#Product {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	background-color:#000000
+}
+
+.text1 {
+	color: rgb(255, 0, 0);
+	font-size: 50px;
+	font-weight: bolder;
+	width: 1130px;
+	margin-top: 3%;
+	margin-bottom: 5%;
+	margin-left: 20%;
+	text-align: center;
+}
+
+.boxes a {
+    text-decoration: none;
+}
+
+.boxes {
+    max-height: 700px;
+    display: flex;
+	margin-left: 3vw;
+    margin-right: 3vw;
+    padding-bottom: 6vh;
+    overflow-x: auto;
+}
+
+.boxes::-webkit-scrollbar {
+    width: 100%;
+}
+
+.boxes::-webkit-scrollbar-thumb {
+    background-color: #918f8f;
+}
+
+.boxes::-webkit-scrollbar-thumb:hover{ 
+    background-color: #ff0000b5;
+}
+
+.boxes::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.65vw rgba(255, 255, 255, 0.25);
+}
+
+.item {
+    min-width: 700px;
+    height: 400px;
+    text-align: center;
+    margin: 0 3vw 0 3vw;
+    font-size: 200%;
+    border-radius: 10px;
+} 
+
+.item p {
+    padding-top: 10%;
+	padding-right: 20%;
+	font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.item:first-child {
+    margin: 0 5vw 0 0;
+    background-image: url(asset/nightserblack.jpg);
+    background-size: cover;	
+    transition: 0.25s;
+	background-repeat: no-repeat;
+}
+
+.item:first-child:hover {
+    opacity: 80%;
+}
+
+.item:nth-child(2) {
+	margin: 0 5vw 0 0;
+    background-image: url(asset/sportserblack.jpg);
+    background-size: cover;
+    transition: 0.25s;
+	background-repeat: no-repeat;
+}
+
+.item:nth-child(2):hover {
+    opacity: 80%;
+}
+
+.item:nth-child(3) {
+	margin: 0 5vw 0 0;
+    background-image: url(asset/road\ glide\ black.jpg);
+    background-size: cover;
+    transition: 0.25s;
+	background-repeat: no-repeat;
+}
+
+.item:nth-child(3):hover {
+    opacity: 80%;
+}
+
+.item:nth-child(4) {
+    background-image: url(asset/road\ king\ black.jpg);
+    background-size: cover;
+    transition: 0.2s;
+	background-repeat: no-repeat;
+}
+
+.item:nth-child(4):hover {
+    opacity: 80%;
+}
+
+.item:nth-child(5) {
+	margin: 0 5vw 0 0;
+    background-image: url(asset/fat\ bob\ black.jpg);
+    background-size: cover;
+    transition: 0.25s;
+	background-repeat: no-repeat;
+}
+
+.item:nth-child(5):hover {
+    opacity: 80%;
+}
+
+.item:nth-child(6) { 
+	margin: 0 5vw 0 0;
+    background-image: url(asset/streetbobblack.jpg);
+    background-size: cover;
+    transition: 0.25s;
+	background-repeat: no-repeat;
+}
+
+.item:nth-child(6):hover {
+    opacity: 80%;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	background: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p:nth-child(1) {
+	font-size: 30px;
+	color: rgb(255, 0, 0);
+	margin-bottom: 20px;
+	font-weight: bold;
+    justify-content: left;
+}
+
+.social {
+	display: flex;
+}
+
+.social a {
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  rgb(255, 0, 0);
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.social a:hover {
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+.end {
+	color: rgb(255, 255, 255);
+	bottom: 35px;
+	font-size: 14px; 
+}
